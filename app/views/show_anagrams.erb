@@ -1,0 +1,7 @@
+<div class="container">
+  <% if @anagrams.size <= 1 %>
+    <%= erb :_no_match %>
+  <% else %>
+    <%= erb :_matches %>
+  <% end %>
+</div>
